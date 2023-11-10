@@ -1,0 +1,403 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito&display=swap" rel="stylesheet">
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <title>JOB BOARD</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h2 class="navbar-logo"><a href="#">QUBIT</a></h2>
+        <div class="navbar-menu">
+            <a href="#jobs">Jobs</a>
+            <a href="#companies">Companies</a>
+            <a href="#testimonial">Testimonial</a>
+            <a href="#blog">Blog</a>
+            <a href="#">Sign in</a>
+        </div>
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <header>
+        <h1 class="header-title">
+            <span>5000+ JOBS</span> <br> "Your Career Booster!"
+        </h1>
+    </header>
+    <!--search-->
+    <div class="search-wrapper">
+        <div class="search-box">
+            <div class=search-card>
+                <input class="search-input" type="text" placeholder="Keywords or Job Title">
+                <button class="search-button">Search</button>
+            </div>
+        </div>
+    </div>
+    <!--filter box-->
+    <div class="filter-box">
+        <div class="filter-dropdown">
+            <select class="filter-select" id="job-level" name="job-level">
+                <option>JOB LEVEL</option>
+                <option></option>
+                <option>Mid-Senior</option>
+                <option>Director</option>
+            </select>
+            <select class="filter-select" id="job-function" name="job-function">
+                <option>JOB FUNCTION</option>
+                <option>IT</option>
+                <option>Management</option>
+                <option>Education</option>
+            </select>
+            <select class="Filter-select" id="employment" name="employment">
+                <option>JOB TYPE</option>
+                <option>Internship</option>
+                <option>Part Time</option>
+                <option>Full Time</option>
+            </select>
+            <select class="filter-select" id="location" name="location">
+                <option>LOCATION</option>
+                <option>Remote</option>
+                <option>US</option>
+                <option>Uk</option>
+            </select>
+            <select class="filter-select" id="education" name="education">
+                <option>EDUCATION</option>
+                <option>High School</option>
+                <option>Bachelor's degree</option>
+                <option>Master's degree</option>
+            </select>
+        </div>
+        <div class="filter-chosen">
+            <div class="chosen-card">
+                Remote <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Full Time <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Financial Tech <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Entry Level <i class="fas fa-times-circle"></i>
+            </div>
+        </div>
+    </div>
+    <!--job listing-->
+    <section class="job-list" id="jobs">
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/Maruti suzuki.png">
+                <div class="job-detail">
+                    <h4>MARUTI SUZUKI</h4>
+                    <h3>Mechanical Engineer</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">JAVA</a>
+                <a class="label-c" href="#">PYTHON</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/AXIS BANK PNG.png">
+                <div class="job-detail">
+                    <h4>AXIS BANK</h4>
+                    <h3>Buisness Developer</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">JAVA</a>
+                <a class="label-c" href="#">PYTHON</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/YouTube-Logo-2017-present.jpg">
+                <div class="job-detail">
+                    <h4>YOUTUBE</h4>
+                    <h3>Digital Marketing</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">JAVA</a>
+                <a class="label-c" href="#">PYTHON</a>
+            </div>
+            <div class="job-posted">
+                Posted one hour ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/Instagram.jpg">
+                <div class="job-detail">
+                    <h4>INSTAGRAM</h4>
+                    <h3>UI UX Designer</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">JAVA</a>
+                <a class="label-c" href="#">PYTHON</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 hours ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/amazon-logo-transparent-background-3.png">
+                <div class="job-detail">
+                    <h4>AMAZON</h4>
+                    <h3>Software Engineer</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">JAVA</a>
+                <a class="label-c" href="#">PYTHON</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div>
+        <button class="job-more">More Jobs</button>
+    </section>
+    <!--join-->
+    <ssection class="join">
+        <div class="join-detail">
+            <h1 class="section-title">START YOUR NEW JOB WITH US!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus sequi ad veritatis aut ipsam. Deleniti tempore dolorem voluptate dolor quos laudantium sit nam, at, saepe voluptates labore. Porro, quas minus.</p>
+        </div>
+        <button class="join-button">Upload Your Resume</button>
+    </ssection>
+
+    <!--Featured company-->
+    <section class="featured" id="companies">
+        <h1 class="section-title">Featured Companies</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum unde hic ea nobis fugit assumenda quibusdam nihil possimus, saepe placeat minus!</p>
+        <div class="featured-wrapper">
+            <div class="featured-card">
+                <img class="featured-image" src="images/AXIS BANK PNG.png">
+                <p>AXIS BANK</p>
+                <button class="featured-button">View jons</button>
+            </div>
+
+            <div class="featured-card">
+                <img class="featured-image" src="images/amazon-logo-transparent-background-3.png">
+                <p>AMAZON</p>
+                <button class="featured-button">View jons</button>
+            </div>
+
+            <div class="featured-card">
+                <img class="featured-image" src="images/Instagram.jpg">
+                <p>INSTAGRAM</p>
+                <button class="featured-button">View jons</button>
+            </div>
+
+            <div class="featured-card">
+                <img class="featured-image" src="images/Maruti suzuki.png">
+                <p>MARUTI SUZUKI</p>
+                <button class="featured-button">View jons</button>
+            </div>
+
+            <div class="featured-card">
+                <img class="featured-image" src="images/YouTube-Logo-2017-present.jpg">
+                <p>YOUTUBE</p>
+                <button class="featured-button">View jons</button>
+            </div>
+
+            <div class="featured-card">
+                <img class="featured-image" src="images/Google.png">
+                <p>GOOGLE</p>
+                <button class="featured-button">View jons</button>
+            </div>
+
+            <div class="featured-card">
+                <img class="featured-image" src="images/whatsapp.png">
+                <p>WHATSAPP</p>
+                <button class="featured-button">View jons</button>
+            </div>
+
+            <div class="featured-card">
+                <img class="featured-image" src="images/linkedIn_PNG7.png">
+                <p>LINKEDLN</p>
+                <button class="featured-button">View jons</button>
+            </div>
+
+            <div class="featured-card">
+                <img class="featured-image" src="images/Zoho_Corporation-Logo.wine.png">
+                <p>ZOHO</p>
+                <button class="featured-button">View jons</button>
+            </div>
+
+            <div class="featured-card">
+                <img class="featured-image" src="images/tesla.png">
+                <p>TESLA</p>
+                <button class="featured-button">View jons</button>
+            </div>
+        </div>
+    </section>
+    <!--testimonial-->
+    <section class="testimonial" id="testimonial">
+        <h1 class="section-title">Testimonial</h1>
+        <p>"Top reviews from our clients"</p>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                    <div class="testimonial-pic">
+                        <img src="images/People 1.jpg">
+                        <p>JOHN SMITH</p>
+                        <span>Buisness Development</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                    <div class="testimonial-pic">
+                        <img src="images/People 2.jpg">
+                        <p>TAYLOR TAMA</p>
+                        <span>Buisness Development</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                    <div class="testimonial-pic">
+                        <img src="images/People 3.jpg">
+                        <p>PETER</p>
+                        <span>Buisness Development</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                    <div class="testimonial-pic">
+                        <img src="images/People 4.jpg">
+                        <p>EVA ROCKS</p>
+                        <span>Buisness Development</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                    <div class="testimonial-pic">
+                        <img src="images/people 5.jpg">
+                        <p>ANDREW</p>
+                        <span>Buisness Development</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!--blog-->
+    <section class="blog" id="blog">
+        <h1 class="section-title">CAREER ADVICES</h1>
+        <p>Learn more career tips from our experts</p>
+        <div class="blog-wrapper">
+            <div class="blog-card">
+                <img class="blog-image" src="images/Career 1.jpg">
+                <div class="blog-detail">
+                    <span>11 APR 2022</span>
+                    <h4>How to enjoy your work</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <hr class="divider">
+                    <a href="#" class="blog-more">Read more</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img class="blog-image" src="images/Career 2.jpg">
+                <div class="blog-detail">
+                    <span>30 JUNE 2022</span>
+                    <h4>Delegate efficiently and work collaboratively</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <hr class="divider">
+                    <a href="#" class="blog-more">Read more</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img class="blog-image" src="images/Career 5.jpg">
+                <div class="blog-detail">
+                    <span>11 MAY 2022</span>
+                    <h4>How to manage time effectively</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <hr class="divider">
+                    <a href="#" class="blog-more">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer>
+        <div class="footer-wrapper">
+            <h3>QUBIT</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa consectetur fugiat totam sequi nihil neque nemo cumque dicta, molestias sit voluptate. Accusamus ex voluptatem soluta ut sequi velit nobis ducimus.</p>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedln-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer-wrapper">
+            <h4>Explore</h4>
+            <a href="#">Top companies</a>
+            <a href="#">Terms of Services</a>
+            <a href="#">podcast</a>
+            <a href="#">careers</a>
+        </div>
+        <div class="footer-wrapper">
+            <h4>About</h4>
+            <a href="#">FAQ</a>
+            <a href="#">Get Inspired</a>
+            <a href="#">blog</a>
+        </div>
+        <div class="footer-wrapper">
+            <h4>Support</h4>
+            <a href="#">Customer Service</a>
+            <a href="#">Trust and safety</a>
+            <a href="#">Partnership</a>
+        </div>
+        <div class="footer-wrapper">
+            <h4>Community</h4>
+            <a href="#">Community</a>
+            <a href="#">Invite a Friend</a>
+            <a href="#">Event</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+    
